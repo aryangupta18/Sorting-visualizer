@@ -1,0 +1,68 @@
+:root {
+    --primary-color: #4e4187;
+    --secondary-color: #ffcff6;
+  }
+  * {
+    /* Below is the standard CSS code one should add to get rid of default margins and padding which most of tge HTML elements have */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    user-select: none;
+  }
+  body {
+    position: relative;
+    /* min-height: 100vh; */
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .title {
+    background-color: var(--primary-color);
+    font-size: 200%;
+    text-align: center;
+    padding-block: 0.5em;
+    color: #fff7ef;
+    cursor: pointer;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    /* font-size: 55px; */
+  }
+  .box{
+    margin-top: 15px;
+    border: 5px #ffcff6;
+    color: #fff7ef;
+    background-color: #ff1493;
+    justify-content: left;
+    align-items: start;
+    width: 75%;
+    margin: auto;
+  }
+  div{
+    margin-bottom: 50px;
+  }
+  h3{
+    background-color: #4e4187;
+    font-size: 175%;
+    padding: 5px;
+  }
+  h4{
+    margin-top: 20px;
+    margin-bottom: 7.5px;
+    text-decoration: underline;
+    font-size: 120%;
+  }
+  .content{
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 2%;
+    font-size: 150%;
+  }
+li{
+  text-align: left;
+}
