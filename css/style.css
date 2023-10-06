@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #4e4187;
-  --secondary-color: #ffcff6;
+  --primary-color: #276fce;
+  --secondary-color: #dedcff;
 }
 * {
   /* Below is the standard CSS code one should add to get rid of default margins and padding which most of tge HTML elements have */
@@ -25,6 +25,7 @@ body {
   background-color: var(--primary-color);
   text-align: center;
   padding-block: 0.5em;
+  font-size: 200%;
   color: #fff7ef;
   cursor: pointer;
   height: 65px;
@@ -41,7 +42,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
   gap: 0.8em;
-  font-size: 16px;
+  font-size: 135%;
   min-height: 70px;
   padding-block: 0.6em;
   background-color: var(--secondary-color);
@@ -55,19 +56,20 @@ body {
   padding: 8px 10px;
   border-radius: 6px;
   transition: 0.3s;
-  background-color: #ff7cff;
+  background-color: #050b36;
 }
 .navbar a:hover {
-  background-color: transparent;
+  background-color: #061059;
 }
 .navbar #menu {
   width: fit-content;
   outline: none;
   border: none;
+  font-size: 105%;
   border-radius: 4px;
   padding: 6px 8px;
-  background-color: #ff7cff;
-  color: #fff7ef;
+  background-color: #050b36;
+  color: #dedcff;
 }
 .navbar > .icon {
   display: none;
@@ -187,15 +189,15 @@ footer {
   align-items: center;
   border-radius: 4px;
   padding: 6px 8px;
-  background-color: #ff7cff;
+  background-color: #050b36;
   color: #fff7ef;
   text-decoration: none;
   
 }
 .descriptions a{
   text-decoration-line: none;
-  text-decoration-color: #ff7cff;
-  color: #fff7ef;
-  font-size: 20px;
+  text-decoration-color: #050b36;
+  color: #dedcff;
+  font-size: 150%;
 
 }

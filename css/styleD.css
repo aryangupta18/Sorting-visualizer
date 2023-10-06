@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #4e4187;
+    --primary-color: #276fce;
     --secondary-color: #ffcff6;
   }
   * {
@@ -24,7 +24,7 @@
     font-size: 200%;
     text-align: center;
     padding-block: 0.5em;
-    color: #fff7ef;
+    color: #dedcff;
     cursor: pointer;
     height: 65px;
     display: flex;
@@ -36,8 +36,8 @@
   .box{
     margin-top: 15px;
     border: 5px #ffcff6;
-    color: #fff7ef;
-    background-color: #ff1493;
+    color: #dedcff;
+    background-color: #050b36;
     justify-content: left;
     align-items: start;
     width: 75%;
@@ -47,7 +47,7 @@
     margin-bottom: 50px;
   }
   h3{
-    background-color: #4e4187;
+    background-color: #1666BA;
     font-size: 175%;
     padding: 5px;
   }
@@ -65,4 +65,14 @@
   }
 li{
   text-align: left;
+}
+button{
+  width: 35%;
+  height: 40%;
+  font-size: 100%;
+  background-color: #1666BA;
+  color: #dedcff;
+}
+button:hover{
+  cursor: pointer;
 }

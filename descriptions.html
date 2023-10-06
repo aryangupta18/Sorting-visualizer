@@ -44,6 +44,7 @@
                     Auxiliary Space: O(1)
                 </li>
             </ul>
+            <a href="https://www.geeksforgeeks.org/bubble-sort/"><button>More about the algorithm</button></a>
         </div>
     </div>
     <div class="box">
@@ -87,6 +88,130 @@
                     Auxiliary Space: O(1) as the only extra memory used is for temporary variables while swapping two values in Array. The selection sort never makes more than O(N) swaps and can be useful when memory writing is costly. 
                 </li>
             </ul>
+            <a href="https://www.geeksforgeeks.org/selection-sort/"><button>More about the algorithm</button></a>
+        </div>
+    </div>
+
+    <div class="box">
+        <h3>Insertion Sort</h3>
+        <div class="content">
+            Insertion sort is a simple sorting algorithm that works similar to the way you sort playing cards in your hands. The array is virtually split into a sorted and an unsorted part. Values from the unsorted part are picked and placed at the correct position in the sorted part.
+            <h4>Characteristics of Insertion Sort</h4>
+            <ul>
+                <li>
+                    This algorithm is one of the simplest algorithms with a simple implementation
+                </li>
+                <li>
+                    Basically, Insertion sort is efficient for small data values
+                </li>
+                <li>
+                    Insertion sort is adaptive in nature, i.e. it is appropriate for data sets that are already partially sorted.
+                </li>
+                
+            </ul>
+            <h4>Complexity Analysis of Insertion Sort:</h4>
+            
+            <ul>
+                <li>
+                    The worst-case time complexity of the Insertion sort is O(N^2)
+                </li>
+                <li>
+                    The average case time complexity of the Insertion sort is O(N^2)
+                </li>
+                <li>
+                    The average case time complexity of the Insertion sort is O(N^2)
+                </li>
+                <li>
+                    The auxiliary space complexity of Insertion Sort is O(1)
+                </li>
+            </ul>
+            <a href="https://www.geeksforgeeks.org/insertion-sort/"><button>More about the algorithm</button></a>
+        </div>
+    </div>
+    <div class="box">
+        <h3>Merge Sort</h3>
+        <div class="content">
+            Merge sort is defined as a sorting algorithm that works by dividing an array into smaller subarrays, sorting each subarray, and then merging the sorted subarrays back together to form the final sorted array.
+            <h4>Applications of Merge Sort:</h4>
+            <ul>
+                <li>
+                    Sorting large datasets: Merge sort is particularly well-suited for sorting large datasets due to its guaranteed worst-case time complexity of O(n log n).
+                </li>
+                <li>
+                    External sorting: Merge sort is commonly used in external sorting, where the data to be sorted is too large to fit into memory.
+                </li>
+                <li>
+                    Custom sorting: Merge sort can be adapted to handle different input distributions, such as partially sorted, nearly sorted, or completely unsorted data.
+                </li>
+                <li>
+                    Inversion Count Problem
+                </li>
+            </ul>
+            <h4>Disadvantages of Merge Sort:</h4>
+            <ul>
+                <li>
+                    Space complexity: Merge sort requires additional memory to store the merged sub-arrays during the sorting process. 
+                </li>
+                <li>
+                    Not in-place: Merge sort is not an in-place sorting algorithm, which means it requires additional memory to store the sorted data. This can be a disadvantage in applications where memory usage is a concern.
+                </li>
+                <li>
+                    Not always optimal for small datasets: For small datasets, Merge sort has a higher time complexity than some other sorting algorithms, such as insertion sort. This can result in slower performance for very small datasets.
+                </li>
+            </ul>
+            <h4>Complexity Analysis of Merge Sort:</h4>
+            
+            <ul>
+                <li>
+                    Time Complexity: O(N log(N)),  Merge Sort is a recursive algorithm and time complexity can be expressed as following recurrence relation. 
+                </li>
+            </ul>
+            <a href="https://www.geeksforgeeks.org/merge-sort/"><button>More about the algorithm</button></a>
+        </div>
+    </div>
+    <div class="box">
+        <h3>Quick Sort</h3>
+        <div class="content">
+            Selection sort is a simple and efficient sorting algorithm that works by repeatedly selecting the smallest (or largest) element from the unsorted portion of the list and moving it to the sorted portion of the list. 
+            <h4>Advantages of Quick Sort:</h4>
+            <ul>
+                <li>
+                    It is a divide-and-conquer algorithm that makes it easier to solve problems.
+                </li>
+                <li>
+                    It is efficient on large data sets.
+                </li>
+                <li>
+                    It has a low overhead, as it only requires a small amount of memory to function.
+                </li>
+                
+            </ul>
+            <h4>Disadvantages of Quick Sort:</h4>
+            <ul>
+                <li>
+                    It has a worst-case time complexity of O(N2), which occurs when the pivot is chosen poorly.
+                </li>
+                <li>
+                    It is not a good choice for small data sets.
+                </li>
+                <li>
+                    It is not a stable sort, meaning that if two elements have the same key, their relative order will not be preserved in the sorted output in case of quick sort, because here we are swapping elements according to the pivot’s position (without considering their original positions).Does not preserve the relative order of items with equal keys which means it is not stable.
+                </li>
+            </ul>
+            <h4>Complexity Analysis of Quick Sort:</h4>
+            
+            <ul>
+                <li>
+                    Best Case:  Ω (N log (N))
+                </li>
+                <li>
+                    Average Case:  θ ( N log (N))
+                </li>
+                <li>
+                    Worst Case: O(N2)
+                </li>
+            </ul>
+            <a href="https://www.geeksforgeeks.org/quick-sort/" type="btn"><button>More about the algorithm</button></a>
         </div>
     </div>
 </body>
